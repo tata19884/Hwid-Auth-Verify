@@ -4,3 +4,4 @@
 
 # How to use?
  - Do `py webapp.py` and you're good to go!
+ - Check `webapprequest.py` to check the most formal and good way to send a request to your flask app!
