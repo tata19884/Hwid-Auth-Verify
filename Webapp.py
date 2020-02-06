@@ -7,7 +7,7 @@ app = Flask('')
 hwidsList = []
 log.setLevel(logging.ERROR)
 
-with open ("Auth/hwid.txt", "r") as f:
+with open ("auth/hwid.txt", "r") as f:
   hwids = f.read()
 hwidsSplitted = hwids.split("\n")
 for i in range(0, len(hwidsSplitted)):
