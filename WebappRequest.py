@@ -7,7 +7,7 @@ colorama.init()
 hwid = subprocess.check_output('wmic csproduct get uuid').decode().split('\n')[1].strip()
 
 def Auth():
-    r = requests.get(f'https://.../backend?hwid={hwid}')
+    r = requests.get(f'.../backend?hwid={hwid}')
     if r.status_code == 401:
         return False
     if r.status_code == 200:
