@@ -1,5 +1,5 @@
 # Hwid Auth Verify
- - Avaliable Links: https://.../backend?hwid=hwid-goes-here
+ - Avaliable Links: .../backend?hwid=hwid-goes-here
  - Put all the valid hwids/codes whatever in the hwid.txt file
 
 # How to use?
