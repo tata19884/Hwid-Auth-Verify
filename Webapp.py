@@ -2,10 +2,12 @@ import logging, json
 
 from flask import Flask, render_template, request
 
-log = logging.getLogger('werkzeug')
+# To disable the werkzeug logger
+'''log = logging.getLogger('werkzeug')
+log.setLevel(logging.ERROR)'''
+
 app = Flask('')
 hwidsList = []
-log.setLevel(logging.ERROR)
 
 with open ("auth/hwid.txt", "r") as f:
   hwids = f.read()
@@ -41,4 +43,8 @@ def not_found(e):
     return render_template("NotFoundError.html"), 404
 
 if __name__ == '__main__':
-    app.run(host="localhost", port=8080)
+    app.run(
+      host="localhost", 
+      port=8080,
+      debug=True
+    )
