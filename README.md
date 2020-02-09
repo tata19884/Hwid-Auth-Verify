@@ -1,6 +1,6 @@
 # Hwid Auth Verify
  - Avaliable Links: .../backend?hwid=hwid-goes-here
- - Put all the valid hwids/codes whatever in the hwid.txt file
+ - Put all the whitelisted hwids/codes whatever in the hwid.txt file
 
 # How to use?
  - First, installing packages: `pip install -r requirements.txt` (PYTHON 3.7)
