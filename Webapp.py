@@ -12,8 +12,8 @@ hwidsList = []
 with open ("auth/hwid.txt", "r") as f:
   hwids = f.read()
 hwidsSplitted = hwids.split("\n")
-for i in range(0, len(hwidsSplitted)):
-  hwidsList.append(hwidsSplitted[i])
+for i in rangehwidsSplitted):
+  hwidsList.append(i)
 
 @app.route('/')
 def home():
