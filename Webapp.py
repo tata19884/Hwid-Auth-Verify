@@ -35,6 +35,8 @@ def test():
 
     if hwid not in hwids:
       return json.dumps(false), 401
+    if hwid == '':
+      return json.dumps(false), 401
     else:
       return json.dumps(true), 200
 
