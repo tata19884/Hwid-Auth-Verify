@@ -1,5 +1,5 @@
 # Hwid Auth Verify
- - Avaliable Links: .../backend?hwid=hwid-goes-here
+ - Avaliable Links: localhost:8080/backend?hwid=hwid-goes-here
  - Put all the whitelisted hwids/codes whatever in the hwid.txt file
 
 # How to use?
