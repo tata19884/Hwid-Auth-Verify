@@ -12,9 +12,9 @@ hwidsList = []
 with open ("auth/hwid.txt", "r") as f:
   hwids = f.read()
 hwidsSplitted = hwids.split("\n")
-for i in rangehwidsSplitted):
-  hwidsList.append(i)
-
+for i in hwidsSplitted:
+   hwidsList.append(i)
+    
 @app.route('/')
 def home():
     return render_template('Home.html')
