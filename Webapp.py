@@ -6,7 +6,7 @@ from flask import Flask, render_template, request
 '''log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)'''
 
-app = Flask('')
+app = Flask(__name__)
 hwidsList = []
 
 with open ("auth/hwid.txt", "r") as f:
